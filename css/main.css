@@ -34,18 +34,19 @@ button{
     cursor: pointer;
 
     margin: 0 auto;
+    margin-top: 3.8rem;
 
     min-width: 18.0rem;
     border-radius: 3.5rem;
-    background-color: #f16192;
-    padding: 1.8rem 4.4rem;
+    padding: 2.0rem 2.4rem;
+    border: 0.2rem solid white;
 
     color: white;
     
     text-transform: uppercase;
-    font-size: 1.4rem;
-    font-weight: 600;
-    letter-spacing: 0.06rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.36rem;
 }
 
 input{
@@ -205,6 +206,10 @@ header .menu a{
     GALLERY
 ---------------------------*/
 
+#gallery{
+    background-color: #3f729b;
+}
+
 #gallery .images{
     display: flex;
 }
@@ -219,13 +224,26 @@ header .menu a{
     height: 125%;
 }    
 
+#gallery h2{
+    margin-top: 12.5rem;
+    
+    color: white;
+    width: 90%;
+}
+#gallery p{
+    color: white;
+    width: 90%;
+}    
+
 #gallery .column-2 figure{
     overflow: hidden;
-    width: 67%;
+    width: 80%;
+    height: 51.5rem;
 }
 
 #gallery .column-2 figure img{
-    height: 120%;
+    height: 100%;
+    margin-left: -50%;
 }    
 
 #gallery .column-2 {
