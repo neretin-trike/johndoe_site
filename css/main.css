@@ -254,14 +254,98 @@ header .menu a{
     MUSIC
 ---------------------------*/
 
-#music .container .row{
+#music .wrapper{
+    background-color: #282b2f;
+    
+    
+    background-image: url(../images/music_background.jpg);    
+    background-size: 70.7%;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+
+    padding-bottom: 36.0rem;
+
+
+    height: 100%;  
+}
+
+#music .wrapper .container .row{
     width: 33.33%;
     margin-left: 16.66%;
+
+    background-color: #212227;
+
+    padding-top: 14.0rem;
+    padding-bottom: 9.0rem;
+    padding-left: 6.0rem;
+    padding-right: 6.0rem;
+}
+
+#music .wrapper .container .row h2{
+    color: #2ebd59;
+    font-size: 2.4rem;
+
+}
+
+#music .wrapper .container .row .feat{
+    font-size: 1.8rem;
+    font-weight: 400;
+}    
+
+#music .wrapper .container .row .special{
+    color: #2ebd59;
+    border-color: #2ebd59;
+}    
+
+#music .wrapper .container .row ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+    line-height: 2.1rem;
+}    
+
+#music .two-color{
+    height: 57.2rem;
+    position: relative;
+    /* top: 500.0rem; */
+}
+
+#music .two-color .left{
+    background-color: #2ebd59;
+    float: left;
+    width: 50%;
+    height: inherit;
+
+    position: absolute;
+}
+
+#music .two-color .right{
+    background-color: #282b2f;
+    float: left;
+    width: 50%;
+    height: inherit;
+
+    position: absolute;
+    left:50%;
+    
+}    
+
+#music .column-2 h2,
+#music .column-2 p{
+    color: white;
 }
 
 #music .column-2{
-    width: 50%;
+    width: 40%;
+    margin-top: 14.0rem;
 }
+
+#music .column-2.itunes{
+    margin-left: 15%;
+    /* background-color: #282b2f; */
+}    
 
 /*--------------------------
     FOOTER
