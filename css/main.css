@@ -17,6 +17,11 @@ body{
     margin: 0 auto;
 }
 
+*{
+    box-sizing: border-box;
+    border: 0.1rem solid #a2a1bf;
+}
+
 figure{
     padding: 0;
     margin: 0;
@@ -48,20 +53,38 @@ input{
     outline: none;
 }
 
-*{
-    box-sizing: border-box;
-    /* border: 0.1rem solid #a2a1bf; */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    margin: 0;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#666666;
+}
+
+p{
+    margin: 0;
+
+    letter-spacing: -0.09rem;
+    font-weight: 300;
+    font-size: 3.6rem;
+    color: #666666;
 }
 
 .container{
-    max-width: 117.0rem;
+    max-width: 118.0rem;
     margin: 0 auto;
     position: relative;
 }
 
 .row{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .column-direct{
@@ -78,33 +101,7 @@ input{
     opacity: 0.9;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
 
-h2{
-    text-align: center;
-    margin-top: 0rem;
-    margin-bottom: 3.6rem;
-
-    font-size: 3.6rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    color:#423b88;
-    letter-spacing: 0.18rem;
-}
-p{
-    text-align: center;
-    margin:0 auto;
-    margin-bottom: 7.0rem;
-
-    color: #949597;
-    letter-spacing: 0.06rem;
-    line-height: 2.4rem;
-
-    max-width: 75%;
-}
 
 
 #slider{
@@ -125,4 +122,87 @@ p{
 
 /*--------------------------
     HEADER
+---------------------------*/
+
+header{
+    max-width: 118.0rem;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+header .logo{
+    margin-right: auto;
+}
+
+header .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 2.4rem;
+}    
+
+/*--------------------------
+    HERO
+---------------------------*/
+
+#hero .row{
+    width: 50%;
+}
+
+/*--------------------------
+    ABOUT
+---------------------------*/
+
+#about .row{
+    margin-left: 50%;
+}
+
+/*--------------------------
+    GALLERY
+---------------------------*/
+
+#gallery .images{
+    display: flex;
+}
+
+#gallery .images figure{
+    width: 25%;
+    overflow: hidden;
+    height: 51.6rem;
+}
+
+#gallery .images figure img{
+    height: 125%;
+}    
+
+#gallery .column-2 figure{
+    overflow: hidden;
+    width: 67%;
+}
+
+#gallery .column-2 figure img{
+    height: 120%;
+}    
+
+#gallery .column-2 {
+    width: 50%;
+}
+
+/*--------------------------
+    MUSIC
+---------------------------*/
+
+#music .container .row{
+    width: 33.33%;
+    margin-left: 16.66%;
+}
+
+#music .column-2{
+    width: 50%;
+}
+
+/*--------------------------
+    FOOTER
 ---------------------------*/
