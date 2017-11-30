@@ -19,7 +19,7 @@ body{
 
 *{
     box-sizing: border-box;
-    border: 0.1rem solid #a2a1bf;
+    /* border: 0.1rem solid #a2a1bf; */
 }
 
 figure{
@@ -51,6 +51,7 @@ button{
 
 input{
     outline: none;
+    border: none;
 }
 
 a{
@@ -350,3 +351,128 @@ header .menu a{
 /*--------------------------
     FOOTER
 ---------------------------*/
+
+footer{
+    background-color: #212227;
+    padding: 10.0rem 0;
+}
+
+footer h3{
+    margin: 0;
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}    
+
+footer .about{
+    width: 22.5%;
+}
+
+footer .contact-and-follow{
+    width: 14.0%;
+    margin: 0 15.4rem;
+}
+    
+footer .subscribe-and-sponsor{
+    width: 40.6%;
+}
+
+footer .about p{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #919191;
+
+    margin-top: 2.8rem;
+}    
+
+footer .about p.copyright{
+    text-transform: uppercase;
+}    
+
+footer .contact p{
+    margin-top: 2.8rem;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #919191;
+}
+
+footer .follow ul{
+    list-style: none;
+    padding: 0;
+    color: #919191;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+
+    margin-top: 2.8rem;
+}    
+
+footer .follow ul li{
+    padding-left: 2.8rem;
+    background-image: url(../images/social_media.png);
+    background-repeat: no-repeat;
+}    
+
+footer .follow ul li.facebook{
+    background-position: 0 0.4rem;    
+}    
+
+footer .follow ul li.twitter{
+    background-position: 0 -2.0rem;    
+}    
+
+footer .follow ul li.instagram{
+    background-position: 0 -4.4rem;    
+}    
+
+footer .follow ul li.spotify{
+    background-position: 0 -6.8rem;    
+}    
+
+footer .sponsor,    
+footer .follow{
+    margin-top: 8.0rem;
+}
+
+footer .subscribe p{
+    margin-top: 2.8rem;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #919191;
+}
+
+footer .subscribe input{
+    margin-top: 2.0rem;
+    vertical-align: middle;
+    background-color: #4d4e52;
+}
+
+footer .subscribe input[type="text"]{
+    padding: 2.4rem 2.0rem;
+    width: 90%;
+    color: white;
+}    
+
+footer .subscribe input[type="submit"]{
+    margin-left: -0.5rem;
+    padding: 2.4rem 0;
+    width: 10.1%;
+
+    background-image: url(../images/arrow_right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}    
+
+footer .subscribe input::placeholder{
+    color: #919191;
+    text-transform: uppercase;
+}    
+
+footer .sponsor .list{
+    display: flex;
+    margin-top: 2.0rem;
+}
+
+footer .sponsor .list figure{
+    margin-right: 2.0rem;
+}    
